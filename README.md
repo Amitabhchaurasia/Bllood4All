@@ -44,10 +44,8 @@
    <td>
     <h3>Backend Dived into MICROSERVICES<h3>
     <h3>bloodDataInput--This Sevice is for adding new user , or donor , it have only one api</h3>
-    
     <ul>
 <li>http://localhost:8081/blood</li>
-
 
 </ul>
     </td>
