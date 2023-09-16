@@ -26,14 +26,14 @@
     <th>Backend</th>
   </tr>
   <tr>
-    <td><pre>
+    <td>
     <h3>For Fotend HTML, CSS, JAVASCRIPT, and for data processing AJAX was used.
 You Can Replace Fronted With You`s<h3>
-    </pre></td>
+    </td>
 
-   <td><pre>
+   <td>
     <h3>Backend Dived into MICROSERVICES<h3>
-    </pre></td>
+    </td>
   </tr>
 </table>
 
