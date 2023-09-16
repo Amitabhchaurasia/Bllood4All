@@ -39,9 +39,7 @@
 <li>http://localhost:8081/blood--to add new donors or new users (sign up)</li>
 
 </ul>
-    </td>
-
-   <td>
+    
     <h3>Backend Dived into MICROSERVICES<h3>
     <h3>bloodDataInput--This Sevice is for adding new user , or donor , it have only one mapping for one api</h3>
     <ul>
