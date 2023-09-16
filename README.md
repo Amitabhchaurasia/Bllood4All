@@ -47,7 +47,7 @@
     <ul>
 <li>http://localhost:8081/blood</li>
 </ul>
-<h5>and to cheek what parametr it takes , vist bloodDonor.java file path of file is src/main/java/bloodDataInput</h5>
+and to cheek what parametr it takes , vist bloodDonor.java file path of file is src/main/java/bloodDataInput
     </td>
   </tr>
 </table>
