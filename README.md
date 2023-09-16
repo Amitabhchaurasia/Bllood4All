@@ -26,9 +26,11 @@
     <th>Backend</th>
   </tr>
   <tr>
-    <td>For Fotend HTML, CSS, JAVASCRIPT, and for data processing AJAX were used.
+    <td>For Fotend HTML, CSS, JAVASCRIPT, and for data processing AJAX was used.
 You Can Replace Fronted With You`s </td>
-    <td>Spring Boot</td>
+    <td><pre>
+        Backend Dived into MICROSERVICES 
+    </pre></td>
   </tr>
 </table>
 
