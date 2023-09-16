@@ -12,7 +12,7 @@
         </thead>
         <tbody>
             <tr>
-                <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="70"></td>
+                <td><img src="https://cdn1.iconfinder.com/data/icons/web-development-6/58/programming_icon_web_coding_html_website_script_writing_code_page-1024.png" width="70"></td>
                 <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="70"></td>
             </tr>
             <!-- Add more rows here if needed -->
