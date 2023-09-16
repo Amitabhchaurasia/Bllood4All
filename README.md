@@ -4,7 +4,13 @@ Blood4All is a humanitarian initiative designed to facilitate blood donations an
 
 ## Important Note
 
-To use this backend, you must have `Spring Tool Suite 4`, and to run all backend services, you need to create a database. In this backend, PostgreSQL is used; to use another database, you need to add all the necessary dependencies for that database in the `pom.xml` file for each service. Additionally, you need to configure your database in the `application-dev.properties` file in each service. The path to this file for each service is `src/main/resources`.
+To use this backend, you must have `Spring Tool Suite 4`, 
+and to run all backend services, you need to create a database. 
+In this backend, PostgreSQL is used; to use another database, you
+need to add all the necessary dependencies for that database in the 
+`pom.xml` file for each service. Additionally, you need to configure
+your database in the `application-dev.properties` file in each service.
+The path to this file for each service is `src/main/resources`.
 
 
 
@@ -19,21 +25,21 @@ The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for eff
 - <img src="https://cdn1.iconfinder.com/data/icons/development-2-yellow/60/30_-Javascript-_development_coding_programming_code-1024.png" alt="JavaScript" width="50"> JavaScript
 - <img src="https://cdn1.iconfinder.com/data/icons/programming-15/100/ProgrammingC_AJAX-1024.png" alt="AJAX" width="50"> AJAX
 
-** You Can use therse APIs for Your UI**
+**APIs available for your UI:**
 
 - **Find Blood by Group, State, and City:**  
-  - [http://localhost:8082/blood/${bloodGroup}/${state}/${city}](http://localhost:8082/blood/${bloodGroup}/${state}/${city})
+  - [Find Blood](http://localhost:8082/blood/{bloodGroup}/{state}/{city})
 
 - **Find Blood Donor by Blood Group:**  
-  - [http://localhost:8082/blood/${bloodGroup}](http://localhost:8082/blood/${bloodGroup})
+  - [Find Donor](http://localhost:8082/blood/{bloodGroup})
 
 - **User Login and Status Update:**  
-  - [http://localhost:8083/login/${userID}/${password}](http://localhost:8083/login/${userID}/${password})
-  - [http://localhost:8083/login/${userID}](http://localhost:8083/login/${userID})
-  - [http://localhost:8083/update/${userID}/${availabilityStatus}](http://localhost:8083/update/${userID}/${availabilityStatus})
+  - [User Login](http://localhost:8083/login/{userID}/{password})
+  - [User Status](http://localhost:8083/login/{userID})
+  - [Update User Status](http://localhost:8083/update/{userID}/{availabilityStatus})
 
 - **User Registration:**  
-  - [http://localhost:8081/blood](http://localhost:8081/blood)
+  - [Register User](http://localhost:8081/blood)
 
 ## Backend
 
