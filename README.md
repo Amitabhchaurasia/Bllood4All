@@ -20,7 +20,7 @@
     </table>
 </center>
 
-<table align="center" width="150%">
+<table align="center" width="100%">
   <tr>
     <th>Frontend</th>
     <th>Backend</th>
