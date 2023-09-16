@@ -13,9 +13,9 @@ scr/main/resource
 
 <table></table>
 
-## Important Note
+## Frontend
 
-To use this backend, you must have 'SpringToolSuite4' installed. Additionally, to run all backend services, you need to create a PostgreSQL database. If you wish to use another database, ensure you add all the necessary dependencies for that database to the `pom.xml` file in each service. You must also configure your database in the `application-dev.properties` file in each service. The path to this file in each service is `src/main/resources`.
+The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for effective data processing. It's highly customizable to suit your specific requirements.
 
 **Key Technologies:**
 
@@ -84,9 +84,3 @@ Feel free to explore these APIs and integrate Blood4All into your applications.
   </a></td>
 </tr>
 </table>
-
-
-
-
-
-
