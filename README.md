@@ -13,7 +13,7 @@
         <tbody>
             <tr>
                 <td><img src="https://via.placeholder.com/100x100?text=Frontend" alt="Frontend"></td>
-                <td><img src="https://via.placeholder.com/100x100?text=Backend" alt="Backend"></td>
+                <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"></td>
             </tr>
             <!-- Add more rows here if needed -->
         </tbody>
