@@ -28,7 +28,7 @@ The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for eff
 **APIs available for your UI:**
 
 - **Find Blood by Group, State, and City:**  
-  - Find Blood -[http://localhost:8082/blood/${bloodGroup}/${state}/${city}](http://localhost:8082/blood/${bloodGroup}/${state}/${city})
+  - Find Blood -[http://localhost:8082/blood/${bloodGroup}/${state}/${city}]
 
 - **Find Blood Donor by Blood Group:**  
   - [Find Donor -http://localhost:8082/blood/{bloodGroup}]
