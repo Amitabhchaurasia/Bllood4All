@@ -40,7 +40,9 @@
 </ul>
     </td>
   </tr>
+
 </table>
+
 <table>
 <tr>
 <th>Backend</th>
@@ -52,7 +54,7 @@
     <ul>
 <li>http://localhost:8081/blood--and to check what parameters it takes, visit bloodDonor.java file ,path of the file is src/main/java/bloodDataInput</li>
 </ul>
-<td>
+
     <h3>BloodDonorList--This service is for listing all donors, based on the call</h3>
     <h3>It has two mapping for two API</h3>
     <ul>
