@@ -1,74 +1,52 @@
-# Bllood4All
-<h1 align="center" style="font-size: 36px;">About This Project</h1>
-<h1 align="center">This Project Is Divided Into Two Parts</h1>
+# Blood4All - Project Overview
 
-<center>
-    <table border="1" align="center" width="150%">
-        <thead>
-            <tr>
-                <th>Frontend</th>
-                <th>Backend</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="https://cdn2.iconfinder.com/data/icons/seo-web-2-3/128/Vigor_Html5-Html-Website-code-semantic-web-language-1024.png" width="150"></td>
-                <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="150"></td>
-            </tr>
-            <!-- Add more rows here if needed -->
-        </tbody>
-    </table>
-</center>
+Blood4All is a project aimed at facilitating blood donations and connecting donors with those in need. This project consists of both frontend and backend components, and it offers several APIs for data retrieval and user management.
 
-<table align="center" >
-  <tr>
-    <th>Frontend</th>
-  </tr>
-  <tr>
-    <td>
-    <h3>For Fotend HTML, CSS, JAVASCRIPT, and for data processing AJAX was used.
-    You Can Replace Fronted With You`s<h3>
-    <h3>Here are the APIs you can use on the local machine with the same backend.</h3>
-    <ul>
-<li>http://localhost:8082/blood/${bloodGroup}/${state}/${city}--for finding blood using bloodGroup,state and city</li>
-<li>http://localhost:8082/blood/${bloodGroup}--finding blood donor using blood group only</li>
-<li>http://localhost:8083/login/${userID}/${password}--for login, so users can change there status of available</li>
-<li>http://localhost:8083/login/${userID}--after login to fetch the data of the user.</li>
-<li>http://localhost:8083/update/${userID}/${availabilityStatus}--to change the status of the available</li>
-<li>http://localhost:8081/blood--to add new donors or new users (sign up)</li>
+## Frontend
 
-</ul>
-    </td>
-  </tr>
+For the frontend, we used HTML, CSS, JavaScript, and AJAX for data processing. You can customize the frontend to suit your needs. Here are the APIs available on the local machine with the same backend:
 
-</table>
+- **Find Blood by Group, State, and City:**
+  - http://localhost:8082/blood/${bloodGroup}/${state}/${city}
 
-<table>
-<tr>
-<th>Backend</th>
-</tr>
+- **Find Blood Donor by Blood Group:**
+  - http://localhost:8082/blood/${bloodGroup}
 
-<tr>
-<td>
-<h3>Backend Dived into MICROSERVICES<h3>
-    <h3>bloodDataInput--This Sevice is for adding new user , or donor , it have only one mapping for one API</h3>
-    <ul>
-<li>http://localhost:8081/blood--and to check what parameters it takes, visit bloodDonor.java file ,path of the file is src/main/java/bloodDataInput</li>
-</ul>
-<hr>
-<h3>BloodDonorList--This service is for listing all donors, based on the call</h3>
-    <h3>It has two mapping for two API</h3>
-    <ul>
-<li>http://localhost:8082/blood/${bloodGroup}--it will provide the donor list by the blood group</li>
-<li>http://localhost:8082/blood/${bloodGroup}/${state}/${city}--it will provide the donor list by bloodGroup,state and city</li>
-</ul>
-<hr>
-<h3>logInService--This service for login , it has three mapping for three API</h3>
-<ul>
-<li>http://localhost:8083/login/${userID}/${password}--for login, so users can change there status of available</li>
-<li>http://localhost:8083/login/${userID}--after login to fetch the data of the user.</li>
-<li>http://localhost:8083/update/${userID}/${availabilityStatus}--to change the status of the available</li>
-</ul>
-</td>
-<tr>
-</table>
+- **User Login and Status Update:**
+  - http://localhost:8083/login/${userID}/${password}
+  - http://localhost:8083/login/${userID}
+  - http://localhost:8083/update/${userID}/${availabilityStatus}
+
+- **User Registration:**
+  - http://localhost:8081/blood
+
+## Backend
+
+The backend is divided into microservices, each serving a specific purpose:
+
+### bloodDataInput
+
+This service is for adding new users or donors, and it has one API endpoint:
+
+- http://localhost:8081/blood
+
+To understand the parameters it accepts, please visit the `bloodDonor.java` file located at `src/main/java/bloodDataInput`.
+
+### BloodDonorList
+
+This service is for listing all donors based on the call, and it has two API endpoints:
+
+- http://localhost:8082/blood/${bloodGroup}
+- http://localhost:8082/blood/${bloodGroup}/${state}/${city}
+
+### logInService
+
+This service handles user login and availability status updates, and it has three API endpoints:
+
+- http://localhost:8083/login/${userID}/${password}
+- http://localhost:8083/login/${userID}
+- http://localhost:8083/update/${userID}/${availabilityStatus}
+
+Feel free to explore these APIs to integrate Blood4All into your applications.
+
+For any inquiries or assistance, please contact [Your Contact Information].
