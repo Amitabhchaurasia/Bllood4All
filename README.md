@@ -28,7 +28,8 @@
   <tr>
     <td>
     <h3>For Fotend HTML, CSS, JAVASCRIPT, and for data processing AJAX was used.
-You Can Replace Fronted With You`s<h3>
+    You Can Replace Fronted With You`s<h3>
+    <h3>Here are the APIs you can use.</h3>
     </td>
 
    <td>
