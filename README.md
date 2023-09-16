@@ -2,10 +2,18 @@
 
 Blood4All is a humanitarian initiative designed to facilitate blood donations and connect donors with those in need. This comprehensive project comprises both frontend and backend components and offers several APIs for efficient data retrieval and user management.
 
-
 ## Frontend
 
-The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for effective data processing. It's highly customizable to suit your specific requirements. Below are the APIs available on the local machine with the same backend:
+The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for effective data processing. It's highly customizable to suit your specific requirements.
+
+**Key Technologies:**
+
+- ![HTML5](https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/html5-512.png) HTML5
+- ![CSS3](https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/css3-512.png) CSS3
+- ![JavaScript](https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/javascript-512.png) JavaScript
+- ![AJAX](https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/ajax-512.png) AJAX
+
+**APIs available on the local machine with the same backend:**
 
 - **Find Blood by Group, State, and City:**  
   - [http://localhost:8082/blood/${bloodGroup}/${state}/${city}](http://localhost:8082/blood/${bloodGroup}/${state}/${city})
@@ -23,7 +31,12 @@ The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for eff
 
 ## Backend
 
-The backend is organized into microservices, each dedicated to a specific purpose:
+The backend is organized into microservices, each dedicated to a specific purpose.
+
+**Key Technologies:**
+
+- ![Spring Boot](https://www.vectorlogo.zone/logos/springio/springio-icon.svg) Spring Boot
+- ![PostgreSQL](https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg) PostgreSQL
 
 ### bloodDataInput
 
