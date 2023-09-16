@@ -63,4 +63,5 @@ This service manages user login and availability status updates and offers three
 
 Feel free to explore these APIs and integrate Blood4All into your applications.
 
-For inquiries or assistance, please contact [Amitabh Chaurasia on LinkedIn](https://www.linkedin.com/in/amitabh-chaurasia-6883591b7/).
+For inquiries or assistance, please contact [Amitabh Chaurasia ![LinkedIn](https://image-url-for-linkedin-icon.com)](https://www.linkedin.com/in/amitabh-chaurasia-6883591b7/).
+
