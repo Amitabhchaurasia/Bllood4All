@@ -63,7 +63,8 @@ This service manages user login and availability status updates and offers three
 
 Feel free to explore these APIs and integrate Blood4All into your applications.
 
-<p style="text-align: center;">For inquiries or assistance, please contact Amitabh Chaurasia <a href="https://www.linkedin.com/in/amitabh-chaurasia-6883591b7/" style="display: inline-block; vertical-align: middle;"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-1024.png" width="40" alt="LinkedIn" style="vertical-align: middle;"></a>.</p>
+<p style="text-align: center;">For inquiries or assistance, please contact Amitabh Chaurasia</p>
+<a href="https://www.linkedin.com/in/amitabh-chaurasia-6883591b7/" style="display: inline-block; vertical-align: middle;"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-1024.png" width="40" alt="LinkedIn" style="vertical-align: middle;"></a>
 
 
 
