@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Other Page</title>
+    <!-- Corrected script tag with the proper path to loginOperation.js -->
+    <link rel="stylesheet" href="./css/loginOperation.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./loginOperation.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        function getInfo(){
+            const userID = getUrlParameter('userID');
+            $.ajax({
+                type: "GET",
+                url: `http://localhost:8083/login/${userID}`,
+                success: function(response){
+                    $("#det").empty();
+                    // The response contains a single bloodDonor object, not an array
+                    var fullName = response.fullName;
+                    var MobileNumber = response.mobileNumber;
+                    var BloodGroup = response.bloodGroup;
+                    var AvailabilityStatus = response.availabilityStatus;
+                    var fullNameElement = $("<li>").addClass("full_name").text(fullName);
+                    var MobileNumberElement = $("<li>").addClass("MobileNumber").text(MobileNumber);
+                    var BloodGroupElement = $("<li>").addClass("BloodGroup").text(BloodGroup);
+                    var AvailabilityStatusElement = $("<li>").addClass("AvailabilityStatus").text(AvailabilityStatus);
+
+                    // Creating a dropdown to show availability status
+                    var availabilityDropdown = $("<select>").addClass("AvailabilityStatusDropdown");
+                    var availableOption = $("<option>").text("Available");
+                    var unavailableOption = $("<option>").text("Unavailable");
+                    if (AvailabilityStatus === "Available") {
+                        availableOption.attr("selected", "selected");
+                    } else {
+                        unavailableOption.attr("selected", "selected");
+                    }
+                    availabilityDropdown.append(availableOption);
+                    availabilityDropdown.append(unavailableOption);
+
+                    $("#det").append(fullNameElement);
+                    $("#det").append(MobileNumberElement);
+                    $("#det").append(BloodGroupElement);
+                    $("#det").append(availabilityDropdown);
+
+                    // Store the initial availability status value in a hidden input field
+                    // This will allow us to send the updated status in the form submission
+                    var hiddenInput = $("<input>").attr("type", "hidden").attr("id", "initialAvailabilityStatus").val(AvailabilityStatus);
+                    $("#availability").append(hiddenInput);
+                },
+                error: function(){
+                    $("#det").text("Error fetching user info.");
+                }
+            });
+        }
+
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        getInfo();
+    });
+    </script>
+</head>
+<body>
+    <h1>Your Information</h1>
+    <ul id="det"></ul>
+    <form id="availability">
+        <button type="submit">Update availability</button>
+    </form>
+    <a href="./index.html">Home</a>
+    
+</body>
+</html>

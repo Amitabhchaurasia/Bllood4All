@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./index.js"></script> 
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <a href="./SingUp.html">Volunteer For Blood Donation</a>
+            <a href="./acrossIndia.html">Find Blood Across India</a>
+            <a href="./login.html">LogIn</a>
+        </div>
+        
+        <h2>Search Blood Donors</h2>
+        <div class="form">
+            <label for="bloodGroupDropdown">Select Blood Group:</label>
+            <select id="bloodGroupDropdown">
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+            <br>
+            <div class="location">
+                <label for="state-select">Select State:</label>
+                <select id="state-select">
+                    <option value="" disabled selected>Select a State</option>
+                </select>
+                <br>
+                <label for="city-select">Select City:</label>
+                <select id="city-select">
+                    <option value="" disabled selected>Select a City</option>
+                </select>
+                <script src="./script.js"></script>
+            </div>
+            <button id="Search">Search</button>
+        </div>
+
+        <div id="DonorTable"></div>
+    </div>
+</body>
+</html>
