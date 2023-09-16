@@ -1,3 +1,3 @@
 # Bllood4All
 
-<h2>About This Project</h2>
+<h3 align="center">About This Project</h3>
