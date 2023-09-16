@@ -49,4 +49,4 @@ This service handles user login and availability status updates, and it has thre
 
 Feel free to explore these APIs to integrate Blood4All into your applications.
 
-For any inquiries or assistance, please contact [Your Contact Information].
+For any inquiries or assistance, please contact https://www.linkedin.com/in/amitabh-chaurasia-6883591b7/.
