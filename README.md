@@ -2,11 +2,6 @@
 
 Blood4All is a humanitarian initiative designed to facilitate blood donations and connect donors with those in need. This comprehensive project comprises both frontend and backend components and offers several APIs for efficient data retrieval and user management.
 
-## Tech Stack Used
-
-| **Frontend**                                                     | **Backend**                                           |
-|------------------------------------------------------------------|-------------------------------------------------------|
-| ![HTML5](https://cdn2.iconfinder.com/data/icons/seo-web-2-3/128/Vigor_Html5-Html-Website-code-semantic-web-language-1024.png) | ![Spring](https://www.vectorlogo.zone/logos/springio/springio-icon.svg) |
 
 ## Frontend
 
