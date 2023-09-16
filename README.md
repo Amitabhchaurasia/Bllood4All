@@ -2,6 +2,25 @@
 
 Blood4All is a project aimed at facilitating blood donations and connecting donors with those in need. This project consists of both frontend and backend components, and it offers several APIs for data retrieval and user management.
 
+# Tech Stack used
+<center>
+    <table border="1" align="center" width="150%">
+        <thead>
+            <tr>
+                <th>Frontend</th>
+                <th>Backend</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://cdn2.iconfinder.com/data/icons/seo-web-2-3/128/Vigor_Html5-Html-Website-code-semantic-web-language-1024.png" width="150"></td>
+                <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="150"></td>
+            </tr>
+            <!-- Add more rows here if needed -->
+        </tbody>
+    </table>
+</center>
+
 ## Frontend
 
 For the frontend, we used HTML, CSS, JavaScript, and AJAX for data processing. You can customize the frontend to suit your needs. Here are the APIs available on the local machine with the same backend:
