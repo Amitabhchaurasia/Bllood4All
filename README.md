@@ -51,7 +51,7 @@
 <tr>
 <td>
 <h3>Backend Dived into MICROSERVICES<h3>
-    <h3>bloodDataInput--This Sevice is for adding new user , or donor , it have only one mapping for one api</h3>
+    <h3>bloodDataInput--This Sevice is for adding new user , or donor , it have only one mapping for one API</h3>
     <ul>
 <li>http://localhost:8081/blood--and to check what parameters it takes, visit bloodDonor.java file ,path of the file is src/main/java/bloodDataInput</li>
 </ul>
@@ -62,6 +62,12 @@
 <li>http://localhost:8082/blood/${bloodGroup}--it will provide the donor list by the blood group</li>
 <li>http://localhost:8082/blood/${bloodGroup}/${state}/${city}--it will provide the donor list by bloodGroup,state and city</li>
 <hr>
+<h3>logInService--This service for login , it has three mapping for three API</h3>
+<ul>
+<li>http://localhost:8083/login/${userID}/${password}--for login, so users can change there status of available</li>
+<li>http://localhost:8083/login/${userID}--after login to fetch the data of the user.</li>
+<li>http://localhost:8083/update/${userID}/${availabilityStatus}--to change the status of the available</li>
+</ul>
 </ul>
 </td>
 <tr>
