@@ -15,8 +15,7 @@ scr/main/resource
 
 ## Important Note
 
-To use this backend, you must have "SpringToolSuite4" installed. Additionally, to run all backend services, you need to create a PostgreSQL database. If you wish to use another database, ensure you add all the necessary dependencies for that database to the `pom.xml` file in each service. You must also configure your database in the `application-dev.properties` file in each service. The path to this file in each service is `src/main/resources`.
-
+To use this backend, you must have 'SpringToolSuite4' installed. Additionally, to run all backend services, you need to create a PostgreSQL database. If you wish to use another database, ensure you add all the necessary dependencies for that database to the `pom.xml` file in each service. You must also configure your database in the `application-dev.properties` file in each service. The path to this file in each service is `src/main/resources`.
 
 **Key Technologies:**
 
