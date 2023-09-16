@@ -19,3 +19,15 @@
         </tbody>
     </table>
 </center>
+
+<table>
+  <tr>
+    <th>Frontend</th>
+    <th>Backend</th>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>Spring Boot</td>
+  </tr>
+</table>
+
