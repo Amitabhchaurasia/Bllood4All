@@ -30,6 +30,9 @@
     <h3>For Fotend HTML, CSS, JAVASCRIPT, and for data processing AJAX was used.
     You Can Replace Fronted With You`s<h3>
     <h3>Here are the APIs you can use.</h3>
+    <ul>
+<li>http://localhost:8082/blood/${bloodGroup}/${state}/${city}--for finding blood using bloodGroup,state and city</li>
+</ul>
     </td>
 
    <td>
