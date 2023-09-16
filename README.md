@@ -12,8 +12,8 @@
         </thead>
         <tbody>
             <tr>
-                <td><img src="https://via.placeholder.com/100x100?text=Frontend" alt="Frontend"></td>
-                <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"></td>
+                <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40"></td>
+                <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="40"></td>
             </tr>
             <!-- Add more rows here if needed -->
         </tbody>
