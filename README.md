@@ -44,7 +44,6 @@
 </table>
 
 <table>
-
 <tr>
 <th>Backend</th>
 </tr>
@@ -55,6 +54,7 @@
     <h3>bloodDataInput--This Sevice is for adding new user , or donor , it have only one mapping for one api</h3>
     <ul>
 <li>http://localhost:8081/blood--and to check what parameters it takes, visit bloodDonor.java file ,path of the file is src/main/java/bloodDataInput</li>
+</ul>
 </td>
 <tr>
 </table>
