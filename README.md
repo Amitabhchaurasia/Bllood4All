@@ -45,9 +45,8 @@
     <h3>Backend Dived into MICROSERVICES<h3>
     <h3>bloodDataInput--This Sevice is for adding new user , or donor , it have only one api</h3>
     <ul>
-<li>http://localhost:8081/blood</li>
+<li>http://localhost:8081/blood--and to cheek what parameters it takes, vist bloodDonor.java file path of the file is src/main/java/bloodDataInput</li>
 </ul>
-and to cheek what parametr it takes , vist bloodDonor.java file path of file is src/main/java/bloodDataInput
     </td>
   </tr>
 </table>
