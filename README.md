@@ -12,8 +12,8 @@
         </thead>
         <tbody>
             <tr>
-                <td><img src="https://cdn2.iconfinder.com/data/icons/seo-web-2-3/128/Vigor_Html5-Html-Website-code-semantic-web-language-1024.png" width="100"></td>
-                <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="100"></td>
+                <td><img src="https://cdn2.iconfinder.com/data/icons/seo-web-2-3/128/Vigor_Html5-Html-Website-code-semantic-web-language-1024.png" width="150"></td>
+                <td><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="150"></td>
             </tr>
             <!-- Add more rows here if needed -->
         </tbody>
