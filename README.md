@@ -8,10 +8,10 @@ The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for eff
 
 **Key Technologies:**
 
-- ![HTML5](https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/html5-512.png) HTML5
-- ![CSS3](https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/css3-512.png) CSS3
-- ![JavaScript](https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/javascript-512.png) JavaScript
-- ![AJAX](https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/ajax-512.png) AJAX
+- <img src="https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/html5-512.png" alt="HTML5" width="20"> HTML5
+- <img src="https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/css3-512.png" alt="CSS3" width="20"> CSS3
+- <img src="https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/javascript-512.png" alt="JavaScript" width="20"> JavaScript
+- <img src="https://cdn2.iconfinder.com/data/icons/tech-logos-1/512/ajax-512.png" alt="AJAX" width="20"> AJAX
 
 **APIs available on the local machine with the same backend:**
 
@@ -35,8 +35,8 @@ The backend is organized into microservices, each dedicated to a specific purpos
 
 **Key Technologies:**
 
-- ![Spring Boot](https://www.vectorlogo.zone/logos/springio/springio-icon.svg) Spring Boot
-- ![PostgreSQL](https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg) PostgreSQL
+- <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="20"> Spring Boot
+- <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" width="20"> PostgreSQL
 
 ### bloodDataInput
 
