@@ -2,9 +2,21 @@
 
 Blood4All is a humanitarian initiative designed to facilitate blood donations and connect donors with those in need. This comprehensive project comprises both frontend and backend components and offers several APIs for efficient data retrieval and user management.
 
-## Frontend
+## Important Note
 
-The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for effective data processing. It's highly customizable to suit your specific requirements.
+To use this backend you must have "SpringToolSuite4" , and to run all backend services, you need to create on database, 
+in this backedn i used postrgress sql , to use other database you need to add all dependdnec of  that database in pom.xml in each service 
+
+And you need to confugre your database in "application-dev.properties" in each services , path of file in each servives is 
+scr/main/resource
+
+
+<table></table>
+
+## Important Note
+
+To use this backend, you must have "SpringToolSuite4" installed. Additionally, to run all backend services, you need to create a PostgreSQL database. If you wish to use another database, ensure you add all the necessary dependencies for that database to the `pom.xml` file in each service. You must also configure your database in the `application-dev.properties` file in each service. The path to this file in each service is `src/main/resources`.
+
 
 **Key Technologies:**
 
