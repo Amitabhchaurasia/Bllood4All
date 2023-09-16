@@ -3,7 +3,7 @@
 <h5 align="center">This Project Is Divided Into Two Parts</h5>
 
 <center>
-    <table border="1" align="center" width="70%">
+    <table border="1" align="center" width="150%">
         <thead>
             <tr>
                 <th>Frontend</th>
