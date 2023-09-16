@@ -36,7 +36,7 @@
 <li>http://localhost:8083/login/${userID}/${password}--for login, so users can change there status of available</li>
 <li>http://localhost:8083/login/${userID}--after login to fetch the data of the user.</li>
 <li>http://localhost:8083/update/${userID}/${availabilityStatus}--to change the status of the available<li>
-<li>http://localhost:8081/blood--to add new donors or new users (sign up)</li>
+
 </ul>
     </td>
 
