@@ -60,6 +60,8 @@
     <h3>It has two mapping for two API</h3>
     <ul>
 <li>http://localhost:8082/blood/${bloodGroup}--it will provide the donor list by the blood group</li>
+<li>http://localhost:8082/blood/${bloodGroup}/${state}/${city}--it will provide the donor list by bloodGroup,state and city</li>
+<hr>
 </ul>
 </td>
 <tr>
