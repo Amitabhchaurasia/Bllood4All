@@ -61,13 +61,13 @@
     <ul>
 <li>http://localhost:8082/blood/${bloodGroup}--it will provide the donor list by the blood group</li>
 <li>http://localhost:8082/blood/${bloodGroup}/${state}/${city}--it will provide the donor list by bloodGroup,state and city</li>
+</ul>
 <hr>
 <h3>logInService--This service for login , it has three mapping for three API</h3>
 <ul>
 <li>http://localhost:8083/login/${userID}/${password}--for login, so users can change there status of available</li>
 <li>http://localhost:8083/login/${userID}--after login to fetch the data of the user.</li>
 <li>http://localhost:8083/update/${userID}/${availabilityStatus}--to change the status of the available</li>
-</ul>
 </ul>
 </td>
 <tr>
