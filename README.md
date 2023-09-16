@@ -42,11 +42,18 @@
     </td>
 
    <td>
-    <h3>Backend Dived into MICROSERVICES<h3>
-    <ul><li>bloodDataInput--This Sevice is for adding new user , or donor , it have only one api 
-    <h6>http://localhost:8081/blood</h6>
-    </li>
-    </ul>
+    <h3>For Fotend HTML, CSS, JAVASCRIPT, and for data processing AJAX was used.
+    You Can Replace Fronted With You`s<h3>
+    <h3>Here are the APIs you can use on the local machine with the same backend.</h3>
+    <ul>
+<li>http://localhost:8082/blood/${bloodGroup}/${state}/${city}--for finding blood using bloodGroup,state and city</li>
+<li>http://localhost:8082/blood/${bloodGroup}--finding blood donor using blood group only</li>
+<li>http://localhost:8083/login/${userID}/${password}--for login, so users can change there status of available</li>
+<li>http://localhost:8083/login/${userID}--after login to fetch the data of the user.</li>
+<li>http://localhost:8083/update/${userID}/${availabilityStatus}--to change the status of the available</li>
+<li>http://localhost:8081/blood--to add new donors or new users (sign up)</li>
+
+</ul>
     </td>
   </tr>
 </table>
