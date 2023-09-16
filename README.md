@@ -1,11 +1,8 @@
 # Bllood4All
-
-<p align="center"><img src="path_to_your_project_logo.png" alt="Blood4All Logo"></p>
-
 <h3 align="center">About This Project</h3>
 <h5 align="center">This Project Is Divided Into Two Parts</h5>
 
-<p align="center">
+<center>
     <table border="1">
         <thead>
             <tr>
@@ -21,4 +18,4 @@
             <!-- Add more rows here if needed -->
         </tbody>
     </table>
-</p>
+</center>
