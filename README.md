@@ -8,10 +8,10 @@ The frontend of Blood4All is built using HTML, CSS, JavaScript, and AJAX for eff
 
 **Key Technologies:**
 
-- <img src="https://cdn0.iconfinder.com/data/icons/social-media-2183/512/social__media__social_media__html_5_-1024.png" alt="HTML5" width="20"> HTML5
-- <img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles/100/Neon_Line_Social_Circles_50Icon_10px_grid-07-1024.png" alt="CSS3" width="20"> CSS3
-- <img src="https://cdn1.iconfinder.com/data/icons/development-2-yellow/60/30_-Javascript-_development_coding_programming_code-1024.png" alt="JavaScript" width="20"> JavaScript
-- <img src="https://cdn1.iconfinder.com/data/icons/programming-15/100/ProgrammingC_AJAX-1024.png" alt="AJAX" width="20"> AJAX
+- ![HTML5](https://cdn0.iconfinder.com/data/icons/social-media-2183/512/social__media__social_media__html_5_-1024.png) HTML5
+- ![CSS3](https://cdn2.iconfinder.com/data/icons/neon-line-social-circles/100/Neon_Line_Social_Circles_50Icon_10px_grid-07-1024.png) CSS3
+- ![JavaScript](https://cdn1.iconfinder.com/data/icons/development-2-yellow/60/30_-Javascript-_development_coding_programming_code-1024.png) JavaScript
+- ![AJAX](https://cdn1.iconfinder.com/data/icons/programming-15/100/ProgrammingC_AJAX-1024.png) AJAX
 
 **APIs available on the local machine with the same backend:**
 
