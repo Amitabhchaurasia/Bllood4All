@@ -1,6 +1,6 @@
 # Bllood4All
-<h3 align="center">About This Project</h3>
-<h5 align="center">This Project Is Divided Into Two Parts</h5>
+<h1 align="center" style="font-size: 36px;">About This Project</h1>
+<h1 align="center">This Project Is Divided Into Two Parts</h1>
 
 <center>
     <table border="1" align="center" width="150%">
