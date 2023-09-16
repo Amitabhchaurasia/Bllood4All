@@ -35,8 +35,8 @@ The backend is organized into microservices, each dedicated to a specific purpos
 
 **Key Technologies:**
 
-- <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="20"> Spring Boot
-- <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" width="20"> PostgreSQL
+- <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring Boot" width="50"> Spring Boot
+- <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="PostgreSQL" width="50"> PostgreSQL
 
 ### bloodDataInput
 
