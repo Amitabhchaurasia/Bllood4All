@@ -23,7 +23,6 @@
 <table align="center" >
   <tr>
     <th>Frontend</th>
-    <th>Backend</th>
   </tr>
   <tr>
     <td>
@@ -39,8 +38,16 @@
 <li>http://localhost:8081/blood--to add new donors or new users (sign up)</li>
 
 </ul>
-    
-    <h3>Backend Dived into MICROSERVICES<h3>
+    </td>
+  </tr>
+</table>
+<table>
+<tr>
+<th>Backend</th>
+</tr>
+<tr>
+<td>
+<h3>Backend Dived into MICROSERVICES<h3>
     <h3>bloodDataInput--This Sevice is for adding new user , or donor , it have only one mapping for one api</h3>
     <ul>
 <li>http://localhost:8081/blood--and to check what parameters it takes, visit bloodDonor.java file ,path of the file is src/main/java/bloodDataInput</li>
@@ -51,7 +58,6 @@
     <ul>
 <li>http://localhost:8082/blood/${bloodGroup}--it will provide the donor list by the blood group</li>
 </ul>
-    </td>
-  </tr>
+</td>
+<tr>
 </table>
-
