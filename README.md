@@ -55,6 +55,12 @@
     <ul>
 <li>http://localhost:8081/blood--and to check what parameters it takes, visit bloodDonor.java file ,path of the file is src/main/java/bloodDataInput</li>
 </ul>
+
+<h3>BloodDonorList--This service is for listing all donors, based on the call</h3>
+    <h3>It has two mapping for two API</h3>
+    <ul>
+<li>http://localhost:8082/blood/${bloodGroup}--it will provide the donor list by the blood group</li>
+</ul>
 </td>
 <tr>
 </table>
